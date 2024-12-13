@@ -10,7 +10,7 @@ function html($tag, $content="", $a=array())
     $html.=">";
     if($content!="")
     {
-        $html.=$content."</".$name.">";
+        $html.=$content."</".$tag.">";
     }
     return $html;
 }
